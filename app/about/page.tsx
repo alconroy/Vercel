@@ -62,13 +62,13 @@ export default function AboutPage() {
               <CardHeader className="text-center">
                 <div className="w-24 h-24 rounded-full overflow-hidden mx-auto mb-4">
                   <img
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/sjpic-fcKP799VojGCSCdNUNl9YNqv2e1CBl.jpeg"
+                    src="/SueJohnson-ProHeadShot.png"
                     alt="Sue Johnson"
                     className="w-full h-full object-cover"
                   />
                 </div>
                 <CardTitle className="text-xl">Sue Johnson</CardTitle>
-                <CardDescription>Co-Founder & Managing Director</CardDescription>
+                <CardDescription>Co-Founder & Managing Partner</CardDescription>
               </CardHeader>
               <CardContent className="text-center">
                 <p className="text-muted-foreground mb-4">
@@ -93,7 +93,7 @@ export default function AboutPage() {
               <CardHeader className="text-center">
                 <div className="w-24 h-24 rounded-full overflow-hidden mx-auto mb-4">
                   <img
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/acpic-ktR6VYTT7NsChl1GdfFQVbd1p2ERts.jpeg"
+                    src="/AlanConroy-ProHeadShot.png"
                     alt="Alan Conroy"
                     className="w-full h-full object-cover"
                   />

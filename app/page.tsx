@@ -205,8 +205,7 @@ export default function HomePage() {
               </Badge>
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">Trusted Acumatica Services Partner</h2>
               <p className="text-lg text-muted-foreground mb-6">
-                With Decades of Experience in ERP implementations, Acugen Consulting has helped hundreds of
-                businesses successfully deploy and optimize Acumatica systems.
+                With Decades of Experience in ERP implementations, Acugen Consulting has helped many businesses across the US & Canada successfully deploy and optimize Acumatica systems.
               </p>
               <div className="space-y-4">
                 <div className="flex items-center">
