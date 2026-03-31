@@ -35,7 +35,7 @@ export default function HomePage() {
       <section className="py-20 px-4">
         <div className="container mx-auto text-center max-w-4xl">
           <Badge variant="secondary" className="mb-6">
-            Trusted Acumatica Partner
+            Your Trusted Acumatica Services Partner
           </Badge>
           <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6 text-balance">
             Transform Your Business with
