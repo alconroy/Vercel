@@ -143,12 +143,11 @@ export default function HomePage() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground mb-4">
-                  "Acugen's expertise in Acumatica implementation was exceptional. They delivered on time and within
-                  budget."
+                  "We&apos;d been struggling with our previous ERP for years. The Acugen team had us live on Acumatica ahead of schedule, with minimal disruption to operations."
                 </p>
                 <div>
-                  <p className="font-semibold text-foreground">Sarah Johnson</p>
-                  <p className="text-sm text-muted-foreground">CFO, TechCorp Industries</p>
+                  <p className="font-semibold text-foreground">CEO</p>
+                  <p className="text-sm text-muted-foreground">National Distribution Company</p>
                 </div>
               </CardContent>
             </Card>
@@ -164,11 +163,11 @@ export default function HomePage() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground mb-4">
-                  "The optimization work increased our efficiency by 40%. Outstanding results and professional service."
+                  "The custom reporting and workflow automation they built for us has saved our finance team hours every week. The ROI was clear within the first quarter."
                 </p>
                 <div>
-                  <p className="font-semibold text-foreground">Michael Chen</p>
-                  <p className="text-sm text-muted-foreground">CTO, Global Manufacturing</p>
+                  <p className="font-semibold text-foreground">CFO</p>
+                  <p className="text-sm text-muted-foreground">Mid-Market Manufacturing Firm</p>
                 </div>
               </CardContent>
             </Card>
@@ -184,11 +183,11 @@ export default function HomePage() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground mb-4">
-                  "Their ongoing support has been invaluable. We couldn't ask for a better Acumatica partner."
+                  "What sets Acugen apart is that they actually understand the business, not just the software. Their ongoing support feels like having an internal ERP expert on call."
                 </p>
                 <div>
-                  <p className="font-semibold text-foreground">Lisa Rodriguez</p>
-                  <p className="text-sm text-muted-foreground">Operations Director, RetailPlus</p>
+                  <p className="font-semibold text-foreground">Operations Director</p>
+                  <p className="text-sm text-muted-foreground">Field Services Business</p>
                 </div>
               </CardContent>
             </Card>
