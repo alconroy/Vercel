@@ -37,8 +37,8 @@ export default function AboutPage() {
             About Acugen Consulting
           </Badge>
           <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6 text-balance">
-            Your Trusted
-            <span className="text-primary"> Acumatica Partners</span>
+            Your Trusted Acumatica
+            <span className="text-primary"> Service Partner</span>
           </h1>
           <p className="text-xl text-muted-foreground mb-8 text-pretty max-w-2xl mx-auto">
             Delivering expert Acumatica ERP solutions across North America, UK & Ireland with a proven track record of
