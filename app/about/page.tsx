@@ -60,11 +60,11 @@ export default function AboutPage() {
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <Card className="border-border hover:shadow-lg transition-shadow">
               <CardHeader className="text-center">
-                <div className="w-24 h-24 rounded-full overflow-hidden mx-auto mb-4">
+                <div className="w-32 h-32 rounded-full overflow-hidden mx-auto mb-4">
                   <img
                     src="/SueJohnson-ProHeadShot.png"
                     alt="Sue Johnson"
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover object-top"
                   />
                 </div>
                 <CardTitle className="text-xl">Sue Johnson</CardTitle>
@@ -91,11 +91,11 @@ export default function AboutPage() {
 
             <Card className="border-border hover:shadow-lg transition-shadow">
               <CardHeader className="text-center">
-                <div className="w-24 h-24 rounded-full overflow-hidden mx-auto mb-4">
+                <div className="w-32 h-32 rounded-full overflow-hidden mx-auto mb-4">
                   <img
                     src="/AlanConroy-ProHeadShot.png"
                     alt="Alan Conroy"
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover object-top"
                   />
                 </div>
                 <CardTitle className="text-xl">Alan Conroy</CardTitle>
