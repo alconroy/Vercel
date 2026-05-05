@@ -249,6 +249,20 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Certifications Section */}
+      <section className="py-12 px-4 bg-card border-t border-border">
+        <div className="container mx-auto">
+          <div className="flex flex-col items-center justify-center">
+            <p className="text-sm font-semibold text-muted-foreground mb-6 uppercase tracking-wide">Certifications & Partnerships</p>
+            <img
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_6039480340901990321_x-J1f4o2CZRJhxUg8NWwLvcLxEHqIEB0.jpg"
+              alt="Acumatica Services Partner Logo"
+              className="w-32 h-auto"
+            />
+          </div>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="bg-muted py-12 px-4">
         <div className="container mx-auto">
