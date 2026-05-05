@@ -225,12 +225,19 @@ export default function AboutPage() {
                 </Button>
               </div>
             </div>
-            <div className="relative">
+            <div>
               <img
                 src="/western-european-business-professionals-meeting.jpg"
                 alt="Acugen Consulting team collaboration"
-                className="rounded-lg shadow-lg"
+                className="rounded-lg shadow-lg mb-8"
               />
+              <div className="flex justify-center">
+                <img
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_6039480340901990321_x-J1f4o2CZRJhxUg8NWwLvcLxEHqIEB0.jpg"
+                  alt="Acumatica Services Partner Logo"
+                  className="w-40 h-auto"
+                />
+              </div>
             </div>
           </div>
         </div>
