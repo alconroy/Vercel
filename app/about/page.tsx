@@ -60,11 +60,11 @@ export default function AboutPage() {
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <Card className="border-border hover:shadow-lg transition-shadow">
               <CardHeader className="text-center">
-                <div className="w-24 h-24 rounded-full overflow-hidden mx-auto mb-4">
+                <div className="w-40 h-40 rounded-full overflow-hidden mx-auto mb-4">
                   <img
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/sjpic-fcKP799VojGCSCdNUNl9YNqv2e1CBl.jpeg"
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/SueJohnson-ProHeadShot-LcdNDRiOpMQ7wqKvpsyYz35QSgPxGj.png"
                     alt="Sue Johnson"
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover object-top"
                   />
                 </div>
                 <CardTitle className="text-xl">Sue Johnson</CardTitle>
@@ -91,11 +91,11 @@ export default function AboutPage() {
 
             <Card className="border-border hover:shadow-lg transition-shadow">
               <CardHeader className="text-center">
-                <div className="w-24 h-24 rounded-full overflow-hidden mx-auto mb-4">
+                <div className="w-40 h-40 rounded-full overflow-hidden mx-auto mb-4">
                   <img
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/acpic-ktR6VYTT7NsChl1GdfFQVbd1p2ERts.jpeg"
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/AlanConroy-ProHeadShot-pkR8hgB3FSoBjnbgiBReyODkwz8UPu.png"
                     alt="Alan Conroy"
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover object-top"
                   />
                 </div>
                 <CardTitle className="text-xl">Alan Conroy</CardTitle>
