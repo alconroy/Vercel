@@ -15,7 +15,7 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: "Please complete the security check" }, { status: 400 })
     }
 
-    await resend.emails.send({
+    const { data, error } = await resend.emails.send({
       to: "webquestions@acugenconsulting.com",
       from: "noreply@acugenconsulting.com",
       subject: `New Contact Form Submission from ${name}`,
@@ -37,7 +37,13 @@ export async function POST(request: NextRequest) {
       `,
     })
 
-    return NextResponse.json({ success: true })
+    if (error) {
+      console.error("[v0] Resend error:", error)
+      return NextResponse.json({ error: error.message }, { status: 500 })
+    }
+
+    console.log("[v0] Email sent successfully:", data)
+    return NextResponse.json({ success: true, id: data?.id })
   } catch (error) {
     console.error("Resend error:", error)
     return NextResponse.json({ error: "Failed to send message" }, { status: 500 })
