@@ -1,9 +1,10 @@
 import { type NextRequest, NextResponse } from "next/server"
-import { Resend } from "resend"
+import sgMail from "@sendgrid/mail"
 
 export async function POST(request: NextRequest) {
   try {
-    const resend = new Resend(process.env.RESEND_API_KEY)
+    sgMail.setApiKey(process.env.SENDGRID_API_KEY as string)
+    
     const { name, email, company, message, captchaAnswer } = await request.json()
 
     // Validate required fields
@@ -15,7 +16,7 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: "Please complete the security check" }, { status: 400 })
     }
 
-    const { data, error } = await resend.emails.send({
+    await sgMail.send({
       to: "webquestions@acugenconsulting.com",
       from: "noreply@acugenconsulting.com",
       subject: `New Contact Form Submission from ${name}`,
@@ -37,15 +38,9 @@ export async function POST(request: NextRequest) {
       `,
     })
 
-    if (error) {
-      console.error("[v0] Resend error:", error)
-      return NextResponse.json({ error: error.message }, { status: 500 })
-    }
-
-    console.log("[v0] Email sent successfully:", data)
-    return NextResponse.json({ success: true, id: data?.id })
+    return NextResponse.json({ success: true })
   } catch (error) {
-    console.error("Resend error:", error)
+    console.error("SendGrid error:", error)
     return NextResponse.json({ error: "Failed to send message" }, { status: 500 })
   }
 }
