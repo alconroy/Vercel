@@ -34,16 +34,17 @@ export default function HomePage() {
       {/* Hero Section */}
       <section className="py-20 px-4">
         <div className="container mx-auto text-center max-w-4xl">
-          <Badge variant="secondary" className="mb-6">
-            Your Trusted Acumatica Services Partner
+          <Badge variant="secondary" className="mb-6 uppercase tracking-widest text-xs font-semibold">
+            Acumatica Implementation &amp; System Health Specialists
           </Badge>
           <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6 text-balance">
-            Transform Your Business with
-            <span className="text-primary"> Acumatica ERP</span>
+            Elite Acumatica Capacity.
+            <span className="text-primary"> On Demand</span>
           </h1>
           <p className="text-xl text-muted-foreground mb-8 text-pretty max-w-2xl mx-auto">
-            Expert consulting for seamless implementation and optimization. We help enterprise businesses unlock the
-            full potential of their ERP systems.
+            Get certified, senior-led capacity exactly when you need it. We specialize in two things: seamless
+            white-label implementations to help VARs scale, and deep post-go-live system optimizations to ensure
+            your ERP performs at its peak.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground" asChild>
@@ -52,8 +53,8 @@ export default function HomePage() {
                 <ArrowRight className="ml-2 h-4 w-4" />
               </a>
             </Button>
-            <Button size="lg" variant="outline">
-              View Case Studies
+            <Button size="lg" variant="outline" asChild>
+              <a href="#testimonials">View Case Studies</a>
             </Button>
           </div>
         </div>
