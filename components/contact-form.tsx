@@ -113,7 +113,7 @@ export default function ContactForm() {
             onChange={handleChange}
             required
             className="w-full px-3 py-2 border border-border rounded-md bg-input text-foreground focus:outline-none focus:ring-2 focus:ring-ring"
-            placeholder="Your name"
+            placeholder="Your name & title"
           />
         </div>
         <div>
@@ -127,7 +127,7 @@ export default function ContactForm() {
             onChange={handleChange}
             required
             className="w-full px-3 py-2 border border-border rounded-md bg-input text-foreground focus:outline-none focus:ring-2 focus:ring-ring"
-            placeholder="your@email.com"
+            placeholder="your.work.email@domain.com"
           />
         </div>
       </div>
@@ -141,7 +141,7 @@ export default function ContactForm() {
           value={formData.company}
           onChange={handleChange}
           className="w-full px-3 py-2 border border-border rounded-md bg-input text-foreground focus:outline-none focus:ring-2 focus:ring-ring"
-          placeholder="Your company name"
+          placeholder="Your Company"
         />
       </div>
       <div>
@@ -155,7 +155,7 @@ export default function ContactForm() {
           onChange={handleChange}
           required
           className="w-full px-3 py-2 border border-border rounded-md bg-input text-foreground focus:outline-none focus:ring-2 focus:ring-ring"
-          placeholder="Tell us about your Acumatica needs..."
+          placeholder="Tell us about your current Acumatica challenges (e.g., resource constraints, customization backlog, reporting gaps, or workflow optimization needs)..."
         />
       </div>
 
@@ -183,8 +183,8 @@ export default function ContactForm() {
         disabled={isSubmitting}
         className="w-full bg-accent hover:bg-accent/90 text-accent-foreground disabled:opacity-50"
       >
-        {isSubmitting ? "Sending..." : "Send Message"}
-        <ArrowRight className="ml-2 h-4 w-4" />
+        {isSubmitting ? "Sending..." : "Schedule a Senior Consultant Consultation →"}
+        {!isSubmitting && <ArrowRight className="ml-2 h-4 w-4" />}
       </Button>
     </form>
   )
