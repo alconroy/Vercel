@@ -1,8 +1,9 @@
 import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import { Card, CardContent, CardHeader } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { CheckCircle, Users, Zap, ArrowRight, Star, Quote } from "lucide-react"
+import { CheckCircle, ArrowRight, Star, Quote } from "lucide-react"
 import ContactForm from "@/components/contact-form"
+import AcumaticaServices from "@/components/acumatica-services"
 
 export default function HomePage() {
   return (
@@ -61,69 +62,7 @@ export default function HomePage() {
       </section>
 
       {/* Services Section */}
-      <section id="services" className="py-20 px-4 bg-card">
-        <div className="container mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">Our Acumatica Services</h2>
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Comprehensive ERP solutions tailored to your business needs
-            </p>
-          </div>
-          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-            <Card className="border-border hover:shadow-lg transition-shadow">
-              <CardHeader>
-                <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
-                  <Zap className="h-6 w-6 text-primary" />
-                </div>
-                <CardTitle>Implementation</CardTitle>
-                <CardDescription>Complete Acumatica ERP implementation from planning to go-live</CardDescription>
-              </CardHeader>
-              <CardContent>
-                <ul className="space-y-2">
-                  <li className="flex items-center text-sm">
-                    <CheckCircle className="h-4 w-4 text-primary mr-2" />
-                    System configuration & setup
-                  </li>
-                  <li className="flex items-center text-sm">
-                    <CheckCircle className="h-4 w-4 text-primary mr-2" />
-                    Data migration & integration
-                  </li>
-                  <li className="flex items-center text-sm">
-                    <CheckCircle className="h-4 w-4 text-primary mr-2" />
-                    User training & support
-                  </li>
-                </ul>
-              </CardContent>
-            </Card>
-
-            <Card className="border-border hover:shadow-lg transition-shadow">
-              <CardHeader>
-                <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mb-4">
-                  <Users className="h-6 w-6 text-accent" />
-                </div>
-                <CardTitle>Optimization</CardTitle>
-                <CardDescription>Enhance your existing Acumatica system for maximum efficiency</CardDescription>
-              </CardHeader>
-              <CardContent>
-                <ul className="space-y-2">
-                  <li className="flex items-center text-sm">
-                    <CheckCircle className="h-4 w-4 text-primary mr-2" />
-                    Performance tuning
-                  </li>
-                  <li className="flex items-center text-sm">
-                    <CheckCircle className="h-4 w-4 text-primary mr-2" />
-                    Workflow automation
-                  </li>
-                  <li className="flex items-center text-sm">
-                    <CheckCircle className="h-4 w-4 text-primary mr-2" />
-                    Custom development
-                  </li>
-                </ul>
-              </CardContent>
-            </Card>
-          </div>
-        </div>
-      </section>
+      <AcumaticaServices />
 
       {/* Testimonials Section */}
       <section id="testimonials" className="py-20 px-4 bg-muted/30">
