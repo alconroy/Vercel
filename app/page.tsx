@@ -177,8 +177,8 @@ export default function HomePage() {
       <section id="contact" className="py-20 px-4">
         <div className="container mx-auto max-w-4xl">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">Ready to Transform Your Business?</h2>
-            <p className="text-xl text-muted-foreground">Get in touch with our Acumatica experts today</p>
+            <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">Need Elite Acumatica Delivery or System Optimization?</h2>
+            <p className="text-xl text-muted-foreground">Whether you are a VAR needing immediate white-label capacity to clear a bottleneck, or a live business looking to optimize workflows and custom reporting—our senior-led team is ready to step in. Let&apos;s discuss your project.</p>
           </div>
           <Card className="border-border">
             <CardContent className="p-8">
