@@ -143,23 +143,22 @@ export default function HomePage() {
               <Badge variant="secondary" className="mb-4">
                 About Acugen Consulting
               </Badge>
-              <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">Trusted Acumatica Services Partner</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">Elite Acumatica Consultants.</h2>
               <p className="text-lg text-muted-foreground mb-6">
-                With Decades of Experience in ERP implementations, Acugen Consulting has helped hundreds of
-                businesses successfully deploy and optimize Acumatica systems.
+                We don&apos;t hand your project off to junior consultants learning on your time. Headquartered in Dublin and serving US and Canadian clients, we combine over 51 years of ERP expertise with our proprietary AI-assisted delivery system to execute projects faster, lower implementation risks, and build system configurations that stick.
               </p>
               <div className="space-y-4">
                 <div className="flex items-center">
                   <CheckCircle className="h-5 w-5 text-primary mr-3" />
-                  <span>Certified Acumatica Consultants</span>
+                  <span>51+ Combined ERP Years: Senior only team holding 18 collective Acumatica certification badges.</span>
                 </div>
                 <div className="flex items-center">
                   <CheckCircle className="h-5 w-5 text-primary mr-3" />
-                  <span>Track record of successful implementations throughout North America, UK & Ireland</span>
+                  <span>15+ Implementations Delivered: Deep technical expertise in Distribution, Field Service, and customization frameworks (C#).</span>
                 </div>
                 <div className="flex items-center">
                   <CheckCircle className="h-5 w-5 text-primary mr-3" />
-                  <span>Industry-Leading Expertise</span>
+                  <span>Seamless Remote Collaboration: Operating dynamically across North American timezones under strict partner confidentiality.</span>
                 </div>
               </div>
             </div>
