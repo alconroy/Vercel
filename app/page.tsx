@@ -4,6 +4,7 @@ import { Badge } from "@/components/ui/badge"
 import { CheckCircle, ArrowRight, Star, Quote } from "lucide-react"
 import ContactForm from "@/components/contact-form"
 import AcumaticaServices from "@/components/acumatica-services"
+import AIDelivery from "@/components/ai-delivery"
 
 export default function HomePage() {
   return (
@@ -63,6 +64,9 @@ export default function HomePage() {
 
       {/* Services Section */}
       <AcumaticaServices />
+
+      {/* AI-Assisted Delivery Section */}
+      <AIDelivery />
 
       {/* Testimonials Section */}
       <section id="testimonials" className="py-20 px-4 bg-muted/30">
@@ -244,7 +248,7 @@ export default function HomePage() {
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-foreground transition-colors">
+                  <a href="#ai-delivery" className="hover:text-foreground transition-colors">
                     Technical Stack
                   </a>
                 </li>
