@@ -106,7 +106,7 @@ export default function AcumaticaServices() {
         </div>
 
         {/* CTA Buttons */}
-        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
           <Button
             size="lg"
             className="bg-amber-400 hover:bg-amber-300 text-[#0c1f3d] font-bold px-8 rounded-xl shadow-lg shadow-amber-400/20 transition-all duration-200"
@@ -123,6 +123,28 @@ export default function AcumaticaServices() {
             Book a Technical Scoping Call
             <ArrowRight className="ml-2 h-4 w-4" />
           </Button>
+        </div>
+
+        {/* Metrics Row */}
+        <div className="border-t border-slate-700/60 pt-12">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+            {[
+              { value: "51+", label: "Combined Years of ERP Experience" },
+              { value: "15+", label: "Successful Acumatica Implementations" },
+              { value: "18", label: "Collective Acumatica Certification Badges" },
+              { value: "HQ in Dublin", label: "Serving US & Canadian Clients" },
+            ].map((metric) => (
+              <div
+                key={metric.label}
+                className="bg-[#112145] border border-slate-700/60 rounded-2xl px-6 py-7 text-center hover:border-amber-400/40 transition-colors duration-300"
+              >
+                <p className="text-3xl md:text-4xl font-extrabold text-amber-400 mb-2 leading-none">
+                  {metric.value}
+                </p>
+                <p className="text-xs text-slate-400 leading-relaxed">{metric.label}</p>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>
