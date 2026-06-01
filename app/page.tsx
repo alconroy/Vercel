@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { CheckCircle, ArrowRight, Star, Quote } from "lucide-react"
+import { CheckCircle, ArrowRight, Star, Quote, ShieldCheck } from "lucide-react"
 import ContactForm from "@/components/contact-form"
 import AcumaticaServices from "@/components/acumatica-services"
 import AIDelivery from "@/components/ai-delivery"
@@ -28,6 +28,13 @@ export default function HomePage() {
             </a>
             <a href="#contact" className="text-muted-foreground hover:text-foreground transition-colors">
               Contact
+            </a>
+            <a
+              href="/var-portal"
+              className="flex items-center gap-1.5 bg-primary text-primary-foreground px-4 py-2 rounded-md text-sm font-semibold hover:bg-primary/90 transition-colors"
+            >
+              <ShieldCheck className="h-4 w-4" />
+              VAR Partners
             </a>
           </nav>
         </div>
@@ -58,6 +65,28 @@ export default function HomePage() {
             <Button size="lg" variant="outline" asChild>
               <a href="#testimonials">View Case Studies</a>
             </Button>
+          </div>
+
+          {/* VAR Partner Banner */}
+          <div className="mt-12 border border-primary/30 bg-primary/5 rounded-xl p-6 max-w-2xl mx-auto">
+            <div className="flex flex-col sm:flex-row items-center gap-4">
+              <div className="flex-shrink-0 w-12 h-12 rounded-full bg-primary/10 border border-primary/20 flex items-center justify-center">
+                <ShieldCheck className="h-6 w-6 text-primary" />
+              </div>
+              <div className="text-center sm:text-left flex-1">
+                <p className="font-semibold text-foreground text-sm">Are you an Acumatica VAR?</p>
+                <p className="text-muted-foreground text-sm mt-0.5">
+                  Learn about our Zero-Competition Safe Harbor and white-label delivery model.
+                </p>
+              </div>
+              <a
+                href="/var-portal"
+                className="flex-shrink-0 flex items-center gap-1.5 bg-primary text-primary-foreground px-5 py-2.5 rounded-md text-sm font-semibold hover:bg-primary/90 transition-colors whitespace-nowrap"
+              >
+                VAR Alliance Charter
+                <ArrowRight className="h-4 w-4" />
+              </a>
+            </div>
           </div>
         </div>
       </section>
