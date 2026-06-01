@@ -212,7 +212,7 @@ export default function HomePage() {
                 <span className="text-lg font-bold text-foreground">Acugen Consulting</span>
               </div>
               <p className="text-muted-foreground text-sm">
-                Your trusted partner for Acumatica ERP implementation and optimization.
+                Elite Acumatica delivery capacity for VAR partners and post-go-live optimization for growing businesses.
               </p>
             </div>
             <div>
@@ -220,17 +220,17 @@ export default function HomePage() {
               <ul className="space-y-2 text-sm text-muted-foreground">
                 <li>
                   <a href="#services" className="hover:text-foreground transition-colors">
-                    Implementation
+                    White-Label VAR Delivery
                   </a>
                 </li>
                 <li>
                   <a href="#services" className="hover:text-foreground transition-colors">
-                    Optimization
+                    Post-Go-Live Optimization
                   </a>
                 </li>
                 <li>
                   <a href="#services" className="hover:text-foreground transition-colors">
-                    Training
+                    Customization Sprints
                   </a>
                 </li>
               </ul>
@@ -244,13 +244,13 @@ export default function HomePage() {
                   </a>
                 </li>
                 <li>
-                  <a href="#testimonials" className="hover:text-foreground transition-colors">
-                    Case Studies
+                  <a href="#" className="hover:text-foreground transition-colors">
+                    Technical Stack
                   </a>
                 </li>
                 <li>
                   <a href="#contact" className="hover:text-foreground transition-colors">
-                    Contact
+                    Contact Us
                   </a>
                 </li>
               </ul>
@@ -270,7 +270,7 @@ export default function HomePage() {
                 </li>
                 <li>
                   <a href="#" className="hover:text-foreground transition-colors">
-                    Cookie Policy
+                    Mutual NDA (PDF)
                   </a>
                 </li>
               </ul>
