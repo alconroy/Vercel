@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { CheckCircle, Users, Globe, ArrowRight, Linkedin } from "lucide-react"
+import { CheckCircle, Users, Globe, ArrowRight, Linkedin, ShieldCheck } from "lucide-react"
 
 export default function AboutPage() {
   return (
@@ -26,6 +26,13 @@ export default function AboutPage() {
             <a href="/#contact" className="text-muted-foreground hover:text-foreground transition-colors">
               Contact
             </a>
+            <a
+              href="/var-portal"
+              className="flex items-center gap-1.5 bg-primary text-primary-foreground px-4 py-2 rounded-md text-sm font-semibold hover:bg-primary/90 transition-colors"
+            >
+              <ShieldCheck className="h-4 w-4" />
+              VAR Partners
+            </a>
           </nav>
         </div>
       </header>
@@ -41,7 +48,7 @@ export default function AboutPage() {
             <span className="text-primary"> Service Partner</span>
           </h1>
           <p className="text-xl text-muted-foreground mb-8 text-pretty max-w-2xl mx-auto">
-            Delivering expert Acumatica ERP solutions across North America, UK & Ireland with a proven track record of
+            Delivering expert Acumatica ERP solutions across North America, UK &amp; Ireland with a proven track record of
             successful implementations and optimizations.
           </p>
         </div>
@@ -53,7 +60,7 @@ export default function AboutPage() {
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">Leadership Team</h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Meet the experienced professionals leading Acugen Consulting's mission to transform businesses through
+              Meet the experienced professionals leading Acugen Consulting&apos;s mission to transform businesses through
               Acumatica ERP solutions.
             </p>
           </div>
@@ -68,7 +75,7 @@ export default function AboutPage() {
                   />
                 </div>
                 <CardTitle className="text-xl">Sue Johnson</CardTitle>
-                <CardDescription>Co-Founder & Managing Director</CardDescription>
+                <CardDescription>Co-Founder &amp; Managing Director</CardDescription>
               </CardHeader>
               <CardContent className="text-center">
                 <p className="text-muted-foreground mb-4">
@@ -99,7 +106,7 @@ export default function AboutPage() {
                   />
                 </div>
                 <CardTitle className="text-xl">Alan Conroy</CardTitle>
-                <CardDescription>Co-Founder & Technical Director</CardDescription>
+                <CardDescription>Co-Founder &amp; Technical Director</CardDescription>
               </CardHeader>
               <CardContent className="text-center">
                 <p className="text-muted-foreground mb-4">
@@ -172,7 +179,7 @@ export default function AboutPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  With operations across North America, UK & Ireland, we bring international expertise and local
+                  With operations across North America, UK &amp; Ireland, we bring international expertise and local
                   understanding to every engagement.
                 </p>
               </CardContent>
@@ -201,7 +208,7 @@ export default function AboutPage() {
                 </div>
                 <div className="flex items-center">
                   <CheckCircle className="h-5 w-5 text-primary mr-3 flex-shrink-0" />
-                  <span>Track record of successful implementations throughout North America, UK & Ireland</span>
+                  <span>Track record of successful implementations throughout North America, UK &amp; Ireland</span>
                 </div>
                 <div className="flex items-center">
                   <CheckCircle className="h-5 w-5 text-primary mr-3 flex-shrink-0" />
@@ -248,7 +255,7 @@ export default function AboutPage() {
         <div className="container mx-auto text-center max-w-3xl">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">Ready to Transform Your Business?</h2>
           <p className="text-xl text-muted-foreground mb-8">
-            Let's discuss how Acugen Consulting can help you achieve your Acumatica ERP goals.
+            Let&apos;s discuss how Acugen Consulting can help you achieve your Acumatica ERP goals.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground" asChild>
@@ -274,7 +281,7 @@ export default function AboutPage() {
                 <span className="text-lg font-bold text-foreground">Acugen Consulting</span>
               </div>
               <p className="text-muted-foreground text-sm">
-                Your trusted partner for Acumatica ERP implementation and optimization.
+                Elite Acumatica delivery capacity for VAR partners and post-go-live optimization for growing businesses.
               </p>
             </div>
             <div>
@@ -282,17 +289,17 @@ export default function AboutPage() {
               <ul className="space-y-2 text-sm text-muted-foreground">
                 <li>
                   <a href="/#services" className="hover:text-foreground transition-colors">
-                    Implementation
+                    White-Label VAR Delivery
                   </a>
                 </li>
                 <li>
                   <a href="/#services" className="hover:text-foreground transition-colors">
-                    Optimization
+                    Post-Go-Live Optimization
                   </a>
                 </li>
                 <li>
                   <a href="/#services" className="hover:text-foreground transition-colors">
-                    Training
+                    Customization Sprints
                   </a>
                 </li>
               </ul>
@@ -306,13 +313,13 @@ export default function AboutPage() {
                   </a>
                 </li>
                 <li>
-                  <a href="/#testimonials" className="hover:text-foreground transition-colors">
-                    Case Studies
+                  <a href="/#ai-delivery" className="hover:text-foreground transition-colors">
+                    Technical Stack
                   </a>
                 </li>
                 <li>
                   <a href="/#contact" className="hover:text-foreground transition-colors">
-                    Contact
+                    Contact Us
                   </a>
                 </li>
               </ul>
@@ -332,14 +339,14 @@ export default function AboutPage() {
                 </li>
                 <li>
                   <a href="#" className="hover:text-foreground transition-colors">
-                    Cookie Policy
+                    Mutual NDA (PDF)
                   </a>
                 </li>
               </ul>
             </div>
           </div>
           <div className="border-t border-border mt-8 pt-8 text-center">
-            <p className="text-muted-foreground text-sm">© 2024 Acugen Consulting. All rights reserved.</p>
+            <p className="text-muted-foreground text-sm">&copy; 2025 Acugen Consulting. All rights reserved.</p>
           </div>
         </div>
       </footer>

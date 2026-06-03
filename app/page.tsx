@@ -66,9 +66,19 @@ export default function HomePage() {
               <a href="#testimonials">View Case Studies</a>
             </Button>
           </div>
+        </div>
+      </section>
 
-          {/* VAR Partner Banner */}
-          <div className="mt-12 border border-primary/30 bg-primary/5 rounded-xl p-6 max-w-2xl mx-auto">
+      {/* Services Section */}
+      <AcumaticaServices />
+
+      {/* AI-Assisted Delivery Section */}
+      <AIDelivery />
+
+      {/* VAR Partner Banner */}
+      <section className="py-8 px-4">
+        <div className="container mx-auto max-w-2xl">
+          <div className="border border-primary/30 bg-primary/5 rounded-xl p-6">
             <div className="flex flex-col sm:flex-row items-center gap-4">
               <div className="flex-shrink-0 w-12 h-12 rounded-full bg-primary/10 border border-primary/20 flex items-center justify-center">
                 <ShieldCheck className="h-6 w-6 text-primary" />
@@ -91,12 +101,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Services Section */}
-      <AcumaticaServices />
-
-      {/* AI-Assisted Delivery Section */}
-      <AIDelivery />
-
       {/* Testimonials Section */}
       <section id="testimonials" className="py-20 px-4 bg-muted/30">
         <div className="container mx-auto">
@@ -116,7 +120,7 @@ export default function HomePage() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground mb-4">
-                  "We&apos;d been struggling with our previous ERP for years. The Acugen team had us live on Acumatica ahead of schedule, with minimal disruption to operations."
+                  &quot;We&apos;d been struggling with our previous ERP for years. The Acugen team had us live on Acumatica ahead of schedule, with minimal disruption to operations.&quot;
                 </p>
                 <div>
                   <p className="font-semibold text-foreground">CEO</p>
@@ -136,7 +140,7 @@ export default function HomePage() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground mb-4">
-                  "The custom reporting and workflow automation they built for us has saved our finance team hours every week. The ROI was clear within the first quarter."
+                  &quot;The custom reporting and workflow automation they built for us has saved our finance team hours every week. The ROI was clear within the first quarter.&quot;
                 </p>
                 <div>
                   <p className="font-semibold text-foreground">CFO</p>
@@ -156,7 +160,7 @@ export default function HomePage() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground mb-4">
-                  "What sets Acugen apart is that they actually understand the business, not just the software. Their ongoing support feels like having an internal ERP expert on call."
+                  &quot;What sets Acugen apart is that they actually understand the business, not just the software. Their ongoing support feels like having an internal ERP expert on call.&quot;
                 </p>
                 <div>
                   <p className="font-semibold text-foreground">Operations Director</p>
@@ -211,7 +215,7 @@ export default function HomePage() {
         <div className="container mx-auto max-w-4xl">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">Need Elite Acumatica Delivery or System Optimization?</h2>
-            <p className="text-xl text-muted-foreground">Whether you are a VAR needing immediate white-label capacity to clear a bottleneck, or a live business looking to optimize workflows and custom reporting—our senior-led team is ready to step in. Let&apos;s discuss your project.</p>
+            <p className="text-xl text-muted-foreground">Whether you are a VAR needing immediate white-label capacity to clear a bottleneck, or a live business looking to optimize workflows and custom reporting&mdash;our senior-led team is ready to step in. Let&apos;s discuss your project.</p>
           </div>
           <Card className="border-border">
             <CardContent className="p-8">
@@ -310,7 +314,7 @@ export default function HomePage() {
             </div>
           </div>
           <div className="border-t border-border mt-8 pt-8 text-center">
-            <p className="text-muted-foreground text-sm">© 2025 Acugen Consulting. All rights reserved.</p>
+            <p className="text-muted-foreground text-sm">&copy; 2025 Acugen Consulting. All rights reserved.</p>
           </div>
         </div>
       </footer>

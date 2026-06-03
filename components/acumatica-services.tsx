@@ -110,18 +110,24 @@ export default function AcumaticaServices() {
           <Button
             size="lg"
             className="bg-amber-400 hover:bg-amber-300 text-[#0c1f3d] font-bold px-8 rounded-xl shadow-lg shadow-amber-400/20 transition-all duration-200"
+            asChild
           >
-            <Download className="mr-2 h-4 w-4" />
-            Download Capability Statement
+            <a href="/acugen-capability-statement.pdf" target="_blank" rel="noopener noreferrer">
+              <Download className="mr-2 h-4 w-4" />
+              Download Capability Statement
+            </a>
           </Button>
           <Button
             size="lg"
             variant="outline"
             className="border-slate-500 text-slate-200 hover:bg-slate-700/50 hover:border-slate-400 hover:text-white font-semibold px-8 rounded-xl transition-all duration-200 bg-transparent"
+            asChild
           >
-            <CalendarDays className="mr-2 h-4 w-4" />
-            Book a Technical Scoping Call
-            <ArrowRight className="ml-2 h-4 w-4" />
+            <a href="#contact">
+              <CalendarDays className="mr-2 h-4 w-4" />
+              Book a Technical Scoping Call
+              <ArrowRight className="ml-2 h-4 w-4" />
+            </a>
           </Button>
         </div>
 
