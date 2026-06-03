@@ -46,9 +46,9 @@ export default function HomePage() {
           <Badge variant="secondary" className="mb-6 uppercase tracking-widest text-xs font-semibold">
             Acumatica Implementation &amp; System Health Specialists
           </Badge>
-          <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6 text-balance">
-            Elite Acumatica Capacity.
-            <span className="text-primary"> On Demand</span>
+          <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6">
+            <span className="block">Elite Acumatica Capacity.</span>
+            <span className="block text-primary">On Demand</span>
           </h1>
           <p className="text-xl text-muted-foreground mb-8 text-pretty max-w-2xl mx-auto">
             Get certified, senior-led capacity exactly when you need it. We specialize in two things: seamless
@@ -229,7 +229,7 @@ export default function HomePage() {
       <section className="py-12 px-4 bg-card border-t border-border">
         <div className="container mx-auto">
           <div className="flex flex-col items-center justify-center">
-            <p className="text-sm font-semibold text-muted-foreground mb-6 uppercase tracking-wide">Certifications & Partnerships</p>
+            <p className="text-sm font-semibold text-muted-foreground mb-6 uppercase tracking-wide">Certifications &amp; Partnerships</p>
             <img
               src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_6039480340901990321_x-J1f4o2CZRJhxUg8NWwLvcLxEHqIEB0.jpg"
               alt="Acumatica Services Partner Logo"

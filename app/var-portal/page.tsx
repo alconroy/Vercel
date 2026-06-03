@@ -156,15 +156,15 @@ export default function VarPortalPage() {
         </div>
       </section>
 
-      {/* NDA CTA Section */}
-      <section className="py-16 px-4 bg-muted/30">
+      {/* NDA CTA Section - hidden */}
+      <section className="hidden py-16 px-4 bg-muted/30">
         <div className="container mx-auto max-w-3xl text-center">
           <Lock className="h-10 w-10 text-primary mx-auto mb-6" />
           <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-4 text-balance">
             Ready to Secure Technical Capacity?
           </h2>
           <p className="text-lg text-muted-foreground mb-8 text-pretty max-w-xl mx-auto">
-            Download our pre-signed Mutual NDA instantly. No negotiations needed—we&apos;ve already signed it. Begin scoping your first white-label project today.
+            Download our pre-signed Mutual NDA instantly. No negotiations needed&mdash;we&apos;ve already signed it. Begin scoping your first white-label project today.
           </p>
           <Button
             size="lg"
@@ -192,7 +192,7 @@ export default function VarPortalPage() {
             <img src="/acugen-logo-transparent.png" alt="Acugen Consulting Logo" className="w-7 h-7" />
             <span className="text-base font-bold text-foreground">Acugen Consulting</span>
           </div>
-          <p className="text-muted-foreground text-sm">© 2025 Acugen Consulting. All rights reserved.</p>
+          <p className="text-muted-foreground text-sm">&copy; 2025 Acugen Consulting. All rights reserved.</p>
         </div>
       </footer>
     </div>
